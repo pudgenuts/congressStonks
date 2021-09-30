@@ -28,6 +28,6 @@ symbols = []
   # 'type': 'purchase'},
 
 for record in data: 
-    print("%s[%s] of %s  %s between %s of %s(%s) on %s" % ( record['representative'], record['owner'], record['district'], record['type'], record['amount'], record['ticker'], record['asset_description'], record['disclosure_date']))
+    print("%s[%s] of %s  %s between %s of %s(%s) on %s" % ( record['representative'], record['owner'], record['district'], record['type'], record['amount'], record['ticker'], record['asset_description'], record['transaction_date']))
     
 # print(symbols)
